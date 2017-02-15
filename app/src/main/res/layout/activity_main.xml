@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.etouse.nfcscanuid.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@mipmap/nfcbg"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="读取到的标签"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
